@@ -129,7 +129,7 @@ def main():
             gr.inputs.Image(type='numpy', label='Input'),
             gr.inputs.Radio(model_names,
                             type='value',
-                            default=model_names[1],
+                            default=model_names[0],
                             label='Model'),
             gr.inputs.Slider(
                 1, 20, step=1, default=10, label='Max Number of Faces'),
