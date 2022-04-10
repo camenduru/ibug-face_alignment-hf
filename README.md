@@ -1,5 +1,5 @@
 ---
-title: Ibug Face_alignment
+title: iBUG Face Alignment
 emoji: 🔥
 colorFrom: pink
 colorTo: indigo
