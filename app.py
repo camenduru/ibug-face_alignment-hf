@@ -21,10 +21,9 @@ sys.path.insert(0, 'face_alignment')
 from ibug.face_alignment import FANPredictor
 from ibug.face_detection import RetinaFacePredictor
 
-REPO_URL = 'https://github.com/ibug-group/face_alignment'
 TITLE = 'ibug-group/face_alignment'
-DESCRIPTION = f'This is a demo for {REPO_URL}.'
-ARTICLE = None
+DESCRIPTION = 'This is an unofficial demo for https://github.com/ibug-group/face_alignment.'
+ARTICLE = '<center><img src="https://visitor-badge.glitch.me/badge?page_id=hysts.ibug-face_alignment" alt="visitor badge"/></center>'
 
 TOKEN = os.environ['TOKEN']
 
